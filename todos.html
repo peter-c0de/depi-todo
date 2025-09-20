@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>   
+    <section class="main-container">
+
+        <div class="lang">
+            <!-- <input type="button" value="🇬🇧" onclick="switchLanguage(1)"> -->
+            <input type="button" value="🇬🇧" id="btn_lang_en">
+            <!-- <input type="button" value="🇸🇦" onclick="switchLanguage(2)"> -->
+            <input type="button" value="🇸🇦" id="btn_lang_ar">
+        </div>
+    
+        <div class="container">
+    
+            <div class="container-en">
+                <h1>To-do List</h1>
+                <div class="container-todoInput">
+                    <input type="text" id="taskInput" required />
+                    <!-- <button onclick="addTask()">Add Task</button> -->
+                    <button id="btn_add_task">Add Task</button>
+                </div>
+                <div class="container-todos">
+                    <ul class="todo-ul" id="taskList"></ul>
+                </div>
+                
+                <br>
+                <div class="btn-submit">
+                    <!-- <button onclick="logout()">Logout</button> -->
+                    <button id="btn_logout">Logout</button>
+                </div>
+            </div>
+        
+            <div class="container-ar">
+                <h1>قائمة المهام</h1>
+                <div class="container-todoInput">
+                    <input type="text" id="taskInput" required />
+                    <!-- <button onclick="addTask()">اضف</button> -->
+                    <button id="btn_add_task">اضف</button>
+                </div>
+                <div class="container-todos">
+                    <ul class="todo-ul" id="taskList"></ul>
+                </div>
+                
+                <br>
+                <div class="btn-submit">
+                    <!-- <button onclick="logout()">الخروج</button> -->
+                    <button id="btn_logout">الخروج</button>
+                </div>
+            </div>
+    
+        </div>
+      </section>
+    
+      <!-- <script src="assets/script.js"></script> -->
+</body>
+</html>
