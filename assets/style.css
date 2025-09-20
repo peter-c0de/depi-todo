@@ -1,0 +1,116 @@
+/* @import url('./fonts.css'); */
+
+/* Reset Config */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .lang {
+    margin: 10px;
+}
+
+.main-container .container {
+    margin-block: 100px;
+    padding: 50px;
+    border: 1px solid coral;
+}
+
+.main-container h1 {
+    color: coral;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-block-end: 40px;
+}
+
+.main-container form div {
+    display: grid;
+    grid-template-columns: 230px 300px;
+    font-size: 1.5rem;
+    margin-block: 30px;
+}
+
+.main-container form div.btn-submit {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container form div.btn-submit button {
+    height: 4rem;
+    width: 7rem;
+    font-size: 1.5rem;
+    color: coral;
+}
+
+/* Todo */
+/* body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+} */
+
+.container div div.container-todoInput {
+    display: grid;
+    grid-template-columns: 400px 200px;
+    gap: 5px;
+    margin-block: 20px;
+    height: 50px;
+}
+
+.container div div.container-todos {
+    display: grid;
+    grid-template-columns: 600px 10px;
+    font-size: 1.5rem;
+}
+
+.container-todos .todos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 30px;
+}
+
+ul.todo-ul { 
+    list-style-type: none; 
+    /* padding: 0;  */
+}
+
+ul.todo-ul li {
+    color: orange;
+    background: #f0f0f0;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.todo-ul li button { 
+    margin-left: 10px; 
+}
+
+.container div.btn-submit {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.container div.btn-submit button {
+    height: 4rem;
+    width: 7rem;
+    font-size: 1.5rem;
+    color: coral;
+}
