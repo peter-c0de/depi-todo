@@ -2,7 +2,7 @@
 DEPI's Technical JavaScript Task: Todo Project
 
 ## How to use?
-<video src="./tutorial.mp4" controls preload></video>
+<video src="https://peter-c0de.github.io/depi-todo/tutorial.mp4" controls preload></video>
 
 ## References:
 https://emojidb.org/delete-emojis?utm_source=user_search
