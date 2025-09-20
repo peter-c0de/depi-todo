@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>   
+
+    <section class="main-container">
+
+        <div class="lang">
+            <!-- <input type="button" value="🇬🇧" onclick="switchLanguage(1)"> -->
+            <input type="button" value="🇬🇧" id="btn_lang_en">
+            <!-- <input type="button" value="🇸🇦" onclick="switchLanguage(2)"> -->
+            <input type="button" value="🇸🇦" id="btn_lang_ar">
+        </div>
+
+        <div class="container">
+
+            <div class="container-en">
+                <h1>Log In</h1>
+                <h3><a href="registration.html">Register here</a></h3>
+                <h3 id="message-en"></h3>
+                <form>
+                    <div>
+                        <label for="txt_username">Username: </label>
+                        <input type="text" id="txt_username" required />
+                    </div>
+                    <div>
+                        <label for="txt_password">Password: </label>
+                        <input type="password" id="txt_password" required />
+                    </div>
+                    <div class="btn-submit">
+                        <!-- <button type="button" onclick="login()">Log in</button> -->
+                        <!-- <button type="button" id="btn_login_en">Log in</button> -->
+                        <button type="button" id="btn_login">Log in</button>
+                    </div>
+                </form>
+            </div>
+        
+            <div class="container-ar">
+                <h1>تسجيل الدخول</h1>
+                <h3><a href="registration.html">سجل من هنا</a></h3>
+                <h3 id="message-ar"></h3>
+                <form>
+                    <div>
+                        <label for="txt_username">اسم المستخدم: </label>
+                        <input type="text" id="txt_username" required />
+                    </div>
+                    <div>
+                        <label for="txt_password"> كلمة السر: </label>
+                        <input type="password" id="txt_password" required />
+                    </div>
+                    <div class="btn-submit">
+                        <!-- <button type="button" onclick="login()" >الدخول</button> -->
+                        <!-- <button type="button" id="btn_login_ar">الدخول</button> -->
+                        <button type="button" id="btn_login">الدخول</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    
+
+    <!-- <script src="assets/script.js"></script> -->
+</body>
+</html>
